@@ -1,8 +1,17 @@
-<header class="app-header">
-    <nav class="flex flex-col">
-        <li><a href="#">Header example</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contacts</a></li>
+<header class="flex p-6 justify-between items-center">
+    <div class="logo basis-14">
+        <img src="logo.svg" alt="">
+    </div>
+    <nav>
+        <ul class="flex gap-2">
+            <li><a class="px-6 font-semibold" href="#">Projects</a></li>
+            <li><a class="px-6 font-semibold" href="#">Tasks</a></li>
+            <li><a class="px-6 font-semibold" href="#">About</a></li>
+            <li><a class="px-6 font-semibold" href="#">Contacts</a></li>
+        </ul>
     </nav>
+    <div class="buttons flex gap-6 items-baseline">
+        <a href="#" class="font-semibold">Log in</a>
+        <a href="#" class="bg-primary text-white font-bold px-4 py-2 rounded-lg">Sign up</a>
+    </div>
 </header>
